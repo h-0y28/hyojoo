@@ -28,7 +28,7 @@ const Header: React.FC = () => {
         >
           About Me
         </Link>
-        <Link
+        {/* <Link
           className={`text-lg hover:text-pink-300  ${
             currentPath === "/projects"
               ? "text-yellow-300 font-bold"
@@ -37,7 +37,7 @@ const Header: React.FC = () => {
           to="/projects"
         >
           Projects
-        </Link>
+        </Link> */}
         {/* <Link
           className={`text-lg hover:text-pink-300  ${
             currentPath === "/contact"
