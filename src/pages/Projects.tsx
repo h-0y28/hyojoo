@@ -29,13 +29,13 @@ const projects: Project[] = [
 
 const Projects: React.FC = () => {
   return (
-    <main className="p-4">
+    <main className="p-4 mx-10 my-6">
       <h2 className="text-2xl font-bold mb-4">My Projects</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="border p-4 rounded shadow-md hover:shadow-lg transition-shadow duration-300"
+            className="border p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
           >
             <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
             <p className="mb-4">{project.description}</p>
